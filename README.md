@@ -1,7 +1,7 @@
 # Tic Tac Toe
 
 ### &bullet; Description:
-&emsp;&bullet; Website made by *Teo* using **Javascript** with the point of learning more JS and work on my *problem solving skills*. ***Enjoy!***
+&emsp; Website made by *Teo* using **Javascript** with the point of learning more JS and work on my *problem solving skills*. ***Enjoy!***
 
 ### &bullet; Color Codes:
 
