@@ -1,7 +1,9 @@
 # Tic Tac Toe
 
-## &bullet; Description:
+### &bullet; Description:
 &emsp;&bullet; Website made by *Teo* using **Javascript** with the point of learning more JS and work on my *problem solving skills*. ***Enjoy!***
+
+### &bullet; Color Codes:
 
 |       | `#E1B07E` | `#E5BE9E` | `#CBC0AD` | `#7E4E60` |
 | :---: | :-------: | :-------: | :-------: | :-------: |
