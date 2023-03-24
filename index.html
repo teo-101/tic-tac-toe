@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <div id="title">Tic Tac Toe</div>
+
+  <div id="container">
+    <div id="gameContainer">
+      <table>
+        <tr id="top">
+          <td class="gameSquare" onclick="boxSet(this)"></td>
+          <td class="gameSquare" onclick="boxSet(this)"></td>
+          <td class="gameSquare" onclick="boxSet(this)"></td>
+        </tr>
+
+        <tr id="mid">
+          <td class="gameSquare" onclick="boxSet(this)"></td>
+          <td class="gameSquare" onclick="boxSet(this)"></td>
+          <td class="gameSquare" onclick="boxSet(this)"></td>
+        </tr>
+
+        <tr id="bot">
+          <td class="gameSquare" onclick="boxSet(this)"></td>
+          <td class="gameSquare" onclick="boxSet(this)"></td>
+          <td class="gameSquare" onclick="boxSet(this)"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="info">Press Space to Reset the Game</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
