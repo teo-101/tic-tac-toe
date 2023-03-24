@@ -5,6 +5,7 @@
 
 ### &bullet; Color Codes:
 
-|       | `#E1B07E` | `#E5BE9E` | `#CBC0AD` | `#7E4E60` |
-| :---: | :-------: | :-------: | :-------: | :-------: |
-|   `Color Samples`   |   ![#E1B07E](https://via.placeholder.com/50/E1B07E/000000?text=+)   |   ![#E5BE9E](https://via.placeholder.com/50/E5BE9E/000000?text=+)   |   ![#CBC0AD](https://via.placeholder.com/50/CBC0AD/000000?text=+)   |   ![#7E4E60](https://via.placeholder.com/50/7E4E60/000000?text=+)   |
+|       | `#E63946` | `#F1FAEE` | `#A8DADC` | `#457B9D` | `#1D3557` |
+| :---: | :-------: | :-------: | :-------: | :-------: | :-------: |
+|   `Color Samples`   |   ![#E63946](https://via.placeholder.com/50/E63946/000000?text=+)   |   ![#F1FAEE](https://via.placeholder.com/50/F1FAEE/000000?text=+)   |   ![#A8DADC](https://via.placeholder.com/50/A8DADC/000000?text=+)   |   ![#457B9D](https://via.placeholder.com/50/457B9D/000000?text=+)   |   ![#1D3557](https://via.placeholder.com/50/1D3557/000000?text=+)   |
+
