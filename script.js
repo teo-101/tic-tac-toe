@@ -2,6 +2,7 @@ let gameEnded = new Boolean(false);
 let currentPlayer = 0;
 const gameSquares = document.getElementsByClassName('gameSquare');
 
+// Checks for every turn if game ended
 function checkWin() {
   if (
     // Check rows
@@ -17,20 +18,21 @@ function checkWin() {
     (gameSquares[2].innerHTML !== "" && gameSquares[2].innerHTML === gameSquares[4].innerHTML && gameSquares[4].innerHTML === gameSquares[6].innerHTML)
   ) {
     setTimeout(function() {
-      alert('game won by player ' + (currentPlayer % 2 === 1 ? 'x' : 'o'));
+      alert('Player ' + (currentPlayer % 2 === 1 ? 'x' : 'o') + ' won the game!');
       gameEnded = true;
     }, 200);
   }
-  else if (
+  else if ( // Draw
     gameSquares[0].innerHTML !== "" && gameSquares[1].innerHTML !== "" && gameSquares[2].innerHTML !== "" && gameSquares[3].innerHTML !== "" && gameSquares[4].innerHTML !== "" && gameSquares[5].innerHTML !== "" && gameSquares[6].innerHTML !== "" && gameSquares[7].innerHTML !== "" && gameSquares[8].innerHTML !== ""
   ) {
     setTimeout(function() {
-    alert('draw');
+    alert('Game ended as a DRAW!');
       gameEnded = true;
     }, 200);
   }
 }
 
+// Set current player
 function boxSet(box) {
   if (box.innerHTML === "") {
     if (currentPlayer % 2 == 0) {
@@ -45,6 +47,7 @@ function boxSet(box) {
   }
 }
 
+// Game restart 'Space'
 document.addEventListener('keydown', function(event) {
   if (event.code === 'Space') {
     for (let i = 0; i < gameSquares.length; i++) {

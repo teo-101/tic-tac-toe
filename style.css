@@ -2,37 +2,8 @@
 
 body {
     margin: 0;
-    font-family: 'Moondog Thirty';
+    font-family: 'Moondog Thirty',sans-serif,Arial;
     background-image: url("data:image/svg+xml,%3Csvg class='border shadow-md' viewBox='0 0 1074.7733333333333 604.5600000000001' style='width: 1074.77px; height: 604.56px;' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3E%3Crect class='bg' id='bg' x='0' y='0' width='1074.7733333333333' height='604.5600000000001' fill='%23F1FAEE'%3E%3C/rect%3E%3Cg transform='rotate(139 537.3866666666667 302.28000000000003)'%3E%3Cpath d='M -358.26 434.56 S -189.13 320.56 0.00 434.56 169.13 350.56 358.26 434.56 527.39 292.56 716.52 434.56 809.77 350.56 1074.77 434.56 1082.03 406.56 1433.03 434.56 h 110 V 1204.56 H -358.26 Z' fill='%23457B9D'%3E%3C/path%3E%3Cpath d='M -358.26 195.00 S -235.00 60.00 0.00 195.00 60.26 107.50 358.26 195.00 402.52 58.00 716.52 195.00 866.77 21.00 1074.77 195.00 1145.03 79.00 1433.03 195.00 h 110 V -600 H -358.26 Z' fill='%23A8DADC'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-}
-
-#githubDiv {
-    position: absolute;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #E63946;
-    width: fit-content;
-    height: 2.4rem;
-    padding: 4px;
-    top: 10px;
-    right: 10px;
-    border-radius: 10px;
-    transition: all .45s ease-in-out;
-}
-
-#githubDiv:hover {
-    scale: 120%;
-    background-color: #1D3557;
-    top: 15px;
-    right: 15px;
-}
-
-#github {
-    text-decoration: none;
-    color:#F1FAEE;
-    font-size: 1.5rem;
 }
 
 #title {
@@ -85,7 +56,7 @@ td {
     font-size: 5rem;
     color: #1D3557;
     transition: all .35s ease-in-out;
-    font-family: Arial;
+    font-family: Arial,sans-serif;
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     -moz-user-select: none;
