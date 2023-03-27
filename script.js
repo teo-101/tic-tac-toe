@@ -34,7 +34,7 @@ function checkWin() {
 
 // Set current player
 function boxSet(box) {
-  if (box.innerHTML === "") {
+  if (box.innerHTML === "" && gameEnded == false) {
     if (currentPlayer % 2 == 0) {
       box.innerHTML = "x";
       currentPlayer++;
